@@ -1,0 +1,46 @@
+
+ .hero-title-content{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.text-title-elow{
+    color: rgb(199 237 102);
+    font-size: 10px;
+    font-weight: 700px;
+}
+.text-title{
+    min-width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    height: 58px;
+    color: rgb(173 186 166);
+} 
+
+.title{
+    min-width: 100%;
+    font-size: 39px;
+    font-weight: 700px;
+    height: 96px;
+    color: rgb(242 242 224);
+}
+.button-hero{
+    height: 44px;
+    padding: 13px 8px;
+  border-radius: 22px;
+background: rgb(199 237 102);
+border: none;
+color: #0B140E;
+text-align: center;
+min-width: 158px;
+font-size: 13px;
+
+font-weight: 700;
+
+
+}
