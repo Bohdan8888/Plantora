@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="header-container container">
+    <header class="header">
+ <div class="header-container container">
       <div class="container-logo">
         <span class="point-under-logo">
           <svg class="pointer-under-logo">
@@ -35,9 +36,24 @@
           </button>
         </div>
       </div>
+
+      <div class="nav-contain">
+      <nav class="nav-heder">
+        <a href="#shop" class="link-nav">Shop</a>
+        <a href="#colection" class="link-nav">Collections</a>
+        <a href="#ourstory" class="link-nav">Our story</a>
+        <a href="#journal" class="link-nav">Journal</a>
+      </nav>
+
+      <span class="span-button-shop-now">
+        <button class="button-shop" type="button">Shop now</button>
+      </span>
+      </div>
+
     </header>
     <main>
-      <section class="hero container">
+      <section class="hero">
+        <div class="hero-contain container">
         <div class="hero-title-content">
           <p class="text-title-elow">A LITTLE MORE GREEN, EVERY DAY</p>
           <h1 class="title">Bring nature closer to home.</h1>
@@ -46,10 +62,28 @@
             and more alive.
           </p>
         </div>
-        <button class="button-hero"  type="button">
-Explore plants
-        </button>
-      </section>
+        <button class="button-hero" type="button">Explore plants</button>
+     
+      <div class="image-wid-text">
+    <img class="img-hero"
+  class="team-image"
+  src="./css/image/Heroplant.jpg"
+  srcset="
+    ./css/image/Heroplant.jpg 1x,
+    ./css/image/Heroplant2x.jpg 2x
+  "
+  alt="Monstera plant"
+  width="266" height="280px"
+/>
+
+<div class="title-paragraf">
+      <h3 class="title-hero">A calmer corner</h3>
+      <p class="text-absolut">Plants for everyday</p>
+      </div>
+      </div>
+      </div>
+      </div>
+       </section>
     </main>
     <footer></footer>
   </body>

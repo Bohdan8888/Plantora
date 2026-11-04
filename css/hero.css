@@ -1,6 +1,11 @@
 
+.hero{
+     background-color: #0b140e;
+    border-bottom: 1px solid #384f3b;
+}
+
  .hero-title-content{
-    margin-top: 24px;
+   
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -43,4 +48,28 @@ font-size: 13px;
 font-weight: 700;
 
 
+}
+.title-paragraf{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 58px;
+    width: 166px;
+   border-radius: 14px;
+border: 1px solid #384F3B;
+background: #1D2E20;
+  left: 0px;
+  bottom: 0px;
+}
+.img-hero{
+   display: block;
+
+margin-top: 13px;
+margin-bottom: 15px;
+}
+.image-wid-text{
+    position: relative;
 }
