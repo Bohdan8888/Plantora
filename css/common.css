@@ -3,7 +3,7 @@ h1,
 h2,
 h3,
 p{
-  margin: 0;
+
 color:  #ADBAA6;
 }
 
@@ -44,6 +44,8 @@ a {
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+    margin-left: 36px;
+    margin-right: 47px;
   }
    .section {
     padding: 96px 0;
@@ -54,7 +56,7 @@ a {
   .header .container {
     max-width: 1440px;
     padding: 24px 15px;
-  
+
   }
     .section {
     padding: 120px 0;
@@ -66,7 +68,8 @@ a {
   .container {
     max-width: 1158px;
     padding: 24px 15px;
-  
+    margin-left: 100px;
+  margin-right: 160px;
   }
     .section {
     padding: 120px 0;
