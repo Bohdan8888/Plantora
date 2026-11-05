@@ -8,6 +8,9 @@ color:  #ADBAA6;
 }
 
 body {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   font-family: "DM Sans", sans-serif;
   color: var(--color-text);
   background-color: rgb(11 20 14);
@@ -44,8 +47,7 @@ a {
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
-    margin-left: 36px;
-    margin-right: 47px;
+    margin: 0 auto;
   }
    .section {
     padding: 96px 0;
@@ -68,8 +70,7 @@ a {
   .container {
     max-width: 1158px;
     padding: 24px 15px;
-    margin-left: 100px;
-  margin-right: 160px;
+    margin: 0 auto;
   }
     .section {
     padding: 120px 0;

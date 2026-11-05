@@ -186,7 +186,7 @@
       rgba(237, 221, 83, 0.27) 100%
     );
     height: 640px;
-    width: 1440px;
+    width: 100%;
   }
   .hero-main {
     gap: 10px;
