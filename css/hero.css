@@ -1,5 +1,12 @@
 .hero {
-  background-color: #0b140e;
+  background: #889b2a;
+  background: #889b2a;
+  background: linear-gradient(
+    151deg,
+    rgba(136, 155, 42, 0) 0%,
+    rgba(87, 199, 133, 0.19) 21%,
+    rgba(237, 221, 83, 0.27) 100%
+  );
   border-bottom: 1px solid #384f3b;
 }
 
@@ -51,7 +58,7 @@
   align-items: center;
   gap: 4px;
   height: 58px;
-  width: 166px;
+
   border-radius: 14px;
   border: 1px solid #384f3b;
   background: #1d2e20;
@@ -73,6 +80,9 @@
 .hero-benefits-contain {
   display: none;
 }
+.text-hiden:nth-child(1) {
+  display: none;
+}
 
 @media (min-width: 768px) {
   .hero-main {
@@ -82,7 +92,16 @@
   }
   .hero {
     min-width: 768px;
-  
+    background: #889b2a;
+    background: linear-gradient(
+      151deg,
+      rgba(136, 155, 42, 0) 0%,
+      rgba(87, 199, 133, 0.19) 21%,
+      rgba(237, 221, 83, 0.27) 100%
+    );
+  }
+  .text-hiden:nth-child(1) {
+    display: block;
   }
   .hero-content {
     display: flex;
@@ -152,57 +171,65 @@
     border: 1px solid rgb(56, 79, 59);
     background: rgb(29, 46, 32);
   }
-  .display-none-li{
+  .display-none-li {
     display: none;
   }
 }
 
 @media (min-width: 1158px) {
+  .hero {
+    background: #889b2a;
+    background: linear-gradient(
+      151deg,
+      rgba(136, 155, 42, 0) 0%,
+      rgba(87, 199, 133, 0.19) 21%,
+      rgba(237, 221, 83, 0.27) 100%
+    );
+    height: 640px;
+    width: 1440px;
+  }
+  .hero-main {
+    gap: 10px;
+    margin-bottom: 30px;
+  }
 
-    .hero{
-
-        height: 640px;
-          width: 1440px;
-
-    }
-    .hero-main{
-        gap: 10px;
-    }
-
-    .hero-contain{
-        width: 100%;
+  .hero-contain {
+    width: 100%;
     max-width: 1270px;
     margin: 0 auto;
-
-    }
+  }
   .image-wid-text {
-flex: 0 0 520px;
+    flex: 0 0 520px;
   }
 
   .img-hero {
     width: 520px;
-height: 550px;
+    height: 550px;
     border-radius: 18px;
   }
-  .title{
- font-size: 64px;
- line-height: normal;
- min-width: 650px;
+  .title {
+    height: auto;
+    font-size: 64px;
+    line-height: normal;
+    min-width: 650px;
   }
-  .hero-content{
+  .hero-content {
     flex: 0 0 650px;
     z-index: 0;
   }
-  .hero-title-content{
+  .hero-title-content {
     min-width: 650px;
   }
-  .li-benefits{
+  .li-benefits {
     width: 310px;
   }
-  .display-none-li{
+  .display-none-li {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+  }
+  .text-hiden:nth-child(1) {
+    display: block;
   }
 }
