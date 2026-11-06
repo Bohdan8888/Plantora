@@ -49,6 +49,7 @@
   border: none;
   padding: 0;
   background-color: transparent;
+  cursor: pointer;
 }
 .burger-line {
   width: 24px;
@@ -60,6 +61,57 @@
 
 }
 @media (min-width: 768px) {
+  
+  .nav-contain{
+  width: 430px;
+  box-sizing: border-box;
+  background-color: #06060a;
+  border: 1px solid #424e55;
+  border-radius: 25px;
+}
+.nav-heder{
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  padding: 4px;
+  
+}
+.nav-heder a{
+  flex: 1;
+  justify-content: center;
+  padding: 10px 0;
+  text-align: center;
+  color: #8a8a99;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-heder a:is(:hover, :focus-visible) {
+  color: #fff;
+  anchor-name: --pill;
+}
+
+.nav-heder::before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  position-anchor: --pill;
+  inset: anchor(top) anchor(right) anchor(bottom)
+   anchor(left);
+  background: #140d2ef6;
+  border: 1px solid #8076aee3;
+  box-sizing: border-box;
+  border-radius: 25px;
+  opacity: 0;
+  transition:  inset 0.4s, opacity 0.3s;
+}
+
+.nav-heder:has(a:is(:hover, :focus-visible))::before {
+  opacity: 1;
+}
+  
+  
+  
   .header{
      background-color: #0b140e;
   border-bottom: 1px solid #384f3b;
@@ -132,7 +184,55 @@
   }
 }
 @media (min-width: 1158px) {
-.header {
+.nav-contain{
+  width: 430px;
+  box-sizing: border-box;
+  background-color: #06060a;
+  border: 1px solid #424e55;
+  border-radius: 25px;
+}
+.nav-heder{
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  padding: 4px;
+  
+}
+.nav-heder a{
+  flex: 1;
+  justify-content: center;
+  padding: 10px 0;
+  text-align: center;
+  color: #8a8a99;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-heder a:is(:hover, :focus-visible) {
+  color: #fff;
+  anchor-name: --pill;
+}
+
+.nav-heder::before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  position-anchor: --pill;
+  inset: anchor(top) anchor(right) anchor(bottom)
+   anchor(left);
+  background: #140d2ef6;
+  border: 1px solid #8076aee3;
+  box-sizing: border-box;
+  border-radius: 25px;
+  opacity: 0;
+  transition:  inset 0.4s, opacity 0.3s;
+}
+
+.nav-heder:has(a:is(:hover, :focus-visible))::before {
+  opacity: 1;
+}
+
+  .header {
   width: 100%;
     background-color: #0b140e;
   border-bottom: 1px solid #384f3b;

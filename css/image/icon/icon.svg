@@ -4,4 +4,7 @@
 <symbol id="icon-Logo-dot" viewBox="0 0 32 32">
 <path d="M16 0c8.837 0 16 7.163 16 16s-7.163 16-16 16c-8.837 0-16-7.163-16-16s7.163-16 16-16z"></path>
 </symbol>
+<symbol id="icon-Add-icon" viewBox="0 0 37 32">
+<path d="M12.823 31.269v-31.269h7.886v31.269h-7.886zM0 19.474v-7.749h33.463v7.749h-33.463z"></path>
+</symbol>
 </svg>
