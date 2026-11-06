@@ -8,6 +8,7 @@
     rgba(237, 221, 83, 0.27) 100%
   );
   border-bottom: 1px solid #384f3b;
+  border-radius: 22px;
 }
 
 .hero-title-content {
@@ -99,6 +100,7 @@
       rgba(87, 199, 133, 0.19) 21%,
       rgba(237, 221, 83, 0.27) 100%
     );
+    border-radius: 22px;
   }
   .text-hiden:nth-child(1) {
     display: block;
@@ -185,6 +187,7 @@
       rgba(87, 199, 133, 0.19) 21%,
       rgba(237, 221, 83, 0.27) 100%
     );
+    border-radius: 22px;
     height: 640px;
     width: 100%;
   }

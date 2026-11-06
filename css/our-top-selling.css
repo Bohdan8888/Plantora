@@ -121,7 +121,7 @@
 }
 @media (min-width: 768px) {
     .our-top-selling.container {
-  min-width:  696px;
+  width:  768px;
 }
   .text-section-our-top {
     font-size: 12px;
@@ -142,7 +142,7 @@
 }
  @media (min-width: 1158px) {
     .our-top-selling.container {
-  min-width:  1158px;
+  min-width:  1444px;
 }
 .colection-tovar-section{
     gap: 24px;
