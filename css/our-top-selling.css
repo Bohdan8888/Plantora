@@ -134,7 +134,7 @@
   .colection-tovar-section{
     display: flex;
  flex-wrap: nowrap;
-   
+
   }
   .button-svg{
    line-height: 0%;
@@ -146,13 +146,13 @@
 }
 .colection-tovar-section{
     gap: 24px;
-    
+
 }
 .img-colection{
     border-radius: 35px;
 }
 .title-our-top{
- font-size:  44px;  
+ font-size:  44px;
 }
-  
+
   }

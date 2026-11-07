@@ -1,0 +1,152 @@
+.newsletter {
+  min-width: 358px;
+  min-height: 230px;
+  border-radius: 20px;
+  border: 1px solid #384f3b;
+  background: #17251a;
+ margin-top: 20px;
+}
+
+
+.text-button-none {
+  display: none;
+}
+.newsletter-title {
+  color: #f2f2e0;
+  font-size: 26px;
+  font-weight: 700;
+}
+.newsletter-paragraf {
+  color: #c7ed66;
+  font-size: 10px;
+  font-weight: 700;
+}
+.paragraf-under-title-newsletter {
+  color: #adbaa6;
+  font-size: 11px;
+  font-weight: 400;
+}
+.input-subscribe {
+  width: 326px;
+  height: 44px;
+  padding: 6px 8px 6px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 22px;
+  border: 1px solid #384f3b;
+  background: #0b140e;
+  color: #adbaa6;
+  outline: none;
+}
+
+.input-subscribe:focus{
+    outline: none;
+    border-color: #C7ED66;
+}
+.input-subscribe::placeholder {
+  color: #adbaa6;
+  font-size: 11px;
+  font-weight: 400;
+}
+.newsletter-subscrible {
+  position: relative;
+}
+.svg-subscribe {
+   padding: 7px;
+width: 30px;
+height: 30px;
+  color: #0b140e;
+  position: absolute;
+  top: 6px;
+  right: 0px;
+  border-radius: 16px;
+  background: #c7ed66;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.newsletter-contain{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.newsletter-text{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.newsletter-paragraf{
+    display: block;
+    margin-bottom: 12px;
+}
+@media (min-width: 768px) {
+.text-button-none {
+  display: block;
+}
+.newsletter {
+    padding-top: 30px;
+}
+.svg-subscribe{
+display: none;
+}
+.button-subscribe{
+display: flex;
+width: 140px;
+height: 44px;
+font-size: 12px;
+font-weight: 700;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 22px;
+background: #C7ED66;
+}
+.newsletter-subscrible{
+    display: flex;
+    gap: 16px;
+}
+.newsletter-title{
+font-size: 28px;
+}
+.paragraf-under-title-newsletter {
+    font-size: 12px;
+}
+}
+@media (min-width: 1158px) {
+    .newsletter-title{
+font-size: 34px;
+}
+.paragraf-under-title-newsletter {
+    font-size: 14px;
+}
+.input-subscribe::placeholder{
+    font-size: 13px;
+}
+.button-subscribe{
+    width: 130px;
+height: 52px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.newsletter-contain{
+    flex-direction: row;
+    gap: 150px;
+}
+
+.newsletter {
+min-width: 1440px;
+max-height: 300px;
+padding: 100px 50px;
+}
+.input-subscribe {
+    min-width: 330px;
+height: 52px;
+
+}
+.newsletter-subscrible{
+align-content: center;
+}
+
+
+}

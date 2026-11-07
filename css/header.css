@@ -18,7 +18,7 @@
 }
 
 .container-logo {
-  border-bottom: 1 solid #384f3b;
+  border-bottom: 1px solid #384f3b;
   position: relative;
 }
 .pointer-under-logo {
@@ -32,7 +32,7 @@
   padding-top: 52px;
   width: 100%;
   max-width: 320px;
- 
+
 }
 .container-burger-logo {
   display: flex;
@@ -61,7 +61,7 @@
 
 }
 @media (min-width: 768px) {
-  
+
   .nav-contain{
   width: 430px;
   box-sizing: border-box;
@@ -74,7 +74,7 @@
   isolation: isolate;
   display: flex;
   padding: 4px;
-  
+
 }
 .nav-heder a{
   flex: 1;
@@ -109,9 +109,9 @@
 .nav-heder:has(a:is(:hover, :focus-visible))::before {
   opacity: 1;
 }
-  
-  
-  
+
+
+
   .header{
      background-color: #0b140e;
   border-bottom: 1px solid #384f3b;
@@ -122,7 +122,7 @@
     padding-top: 52px;
     padding-bottom: 20px;
     margin: 0 auto;
- 
+
   }
   .nav-heder {
     display: flex;
@@ -148,7 +148,7 @@
     justify-content: center;
     border-radius: 22px;
     background: #c7ed66;
-    min-width: none;
+    min-width: 0;
     width: 116px;
     height: 44px;
     padding: 0 8px;
@@ -177,7 +177,7 @@
     display: flex;
   }
   .container-logo {
-  
+
     align-content: center;
     margin-right: 44px;
     width: 140px;
@@ -196,7 +196,7 @@
   isolation: isolate;
   display: flex;
   padding: 4px;
-  
+
 }
 .nav-heder a{
   flex: 1;
@@ -236,12 +236,12 @@
   width: 100%;
     background-color: #0b140e;
   border-bottom: 1px solid #384f3b;
- 
+
 }
 .header-container{
     display: flex;
     justify-content: space-between;
- 
+
 }
 .container-logo{
     justify-content: flex-start;

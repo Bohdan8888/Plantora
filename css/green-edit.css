@@ -3,7 +3,7 @@
     display: block;
     margin: 0 auto;
  padding: 10px 16px 20px 16px;
- 
+
 }
 .img-green-edit{
     display: block;
@@ -23,7 +23,7 @@ width: 220px;
 .paragraf-edit{
 color: #C7ED66;
 font-size: 10px;
-font-weight: 700px;
+font-weight: 700;
 }
 .link-decoration{
     display: flex;
@@ -58,7 +58,7 @@ height: 270px;
     flex: 1;
     min-width: 0;
     gap: 18px;
-   
+
 
 }
 .img-green-edit-container{
@@ -70,7 +70,7 @@ height: 270px;
 .list-recomendet-contain{
    padding: 8px 2px 9.1px 2px;
     margin: 0 auto;
-  
+
     width: 354px;
 }
 .list-recomendet-ul{
@@ -119,7 +119,7 @@ width: 420px;
 height: 280px;
 }
 .green-edit-contain{
-   
+
     width: 100%;
 height: 300px;
 

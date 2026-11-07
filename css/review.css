@@ -57,12 +57,12 @@ font-size: 10px;
 .review-name{
 color: #F2F2E0;
 font-size: 12px;
-font-weight: 700px;
+font-weight: 700;
 }
 .review-role{
 color: #ADBAA6;
 font-size: 9px;
-font-weight: 400px;
+font-weight: 400;
 }
 .review-text{
 color: #ADBAA6;
@@ -75,7 +75,7 @@ font-size: 9px;
 font-weight: 700;
 }
 @media (min-width: 768px) {
-   
+
    .reviews{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -110,7 +110,7 @@ font-size: 42px;
 }
 .reviews-list{
     gap: 24px;
-   
+
 }
 .reviews{
     padding-bottom: 50px;
