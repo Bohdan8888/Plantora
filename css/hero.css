@@ -50,6 +50,7 @@
   font-size: 13px;
 
   font-weight: 700;
+  transition: 250ms linear;
 }
 .title-paragraf {
   position: absolute;
@@ -235,4 +236,9 @@
   .text-hiden:nth-child(1) {
     display: block;
   }
+}
+
+.button-hero:hover,
+.button-hero:focus {
+   background:  #79b459;
 }

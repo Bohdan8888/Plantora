@@ -150,3 +150,10 @@ align-content: center;
 
 
 }
+.button-subscribe {
+  transition: 250ms linear;
+}
+.button-subscribe:hover,
+.button-subscribe:focus {
+  background:  #79b459;
+}

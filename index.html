@@ -17,7 +17,7 @@
     />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <script src="./js/js/main.js"></script>
+  <script src="./js/js/main.js" defer></script>
   <body>
     <header class="header">
       <div class="header-container container">
@@ -403,59 +403,97 @@
         </p>
       </div>
     </footer>
-    <div class="modal-menu is-open">
-      <div class="modal-contain">
-      <div class="contain-with-button">
-        <div class="text--modal">
-          <p class="paragraf-modal-green">PLANTORA / QUICK ORDER</p>
-          <h2 class="title-menu">Make it yours.</h2>
-          <p class="paragraf-modal">
-            Leave your details and we'll help your new plant find a home.
+    <div class="modal-menu">
+      <div class="modal-contain" role="dialog" aria-modal="true" aria-labelledby="quick-order-title" aria-describedby="quick-order-description">
+        <div class="contain-with-button">
+          <div class="text--modal">
+            <p class="paragraf-modal-green">PLANTORA / QUICK ORDER</p>
+            <h2 class="title-menu" id="quick-order-title">Make it yours.</h2>
+            <p class="paragraf-modal" id="quick-order-description">
+              Leave your details and we'll help your new plant find a home.
+            </p>
+          </div>
+          <button class="button-close-modal" type="button" aria-label="Close order dialog">
+            <svg class="modal-close-svg" aria-hidden="true">
+              <use href="./css/image/icon/icon.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="your-plant-contain">
+          <div class="img-modal">
+            <img
+              src="./css/image/img-colection-2.png"
+              alt="Monstera deliciosa"
+              width="60"
+              height="60"
+            />
+          </div>
+          <div class="contain-text">
+            <p class="paragraf-modal-green">YOUR PLANT</p>
+            <h3 class="second-title">Monstera deliciosa</h3>
+            <p class="paragraf-modal">$45.00 · 1 item</p>
+          </div>
+        </div>
+        <div class="form-contain-modal">
+          <form class="form-modal" action="">
+            <label class="text-top-input" for="user-name"
+              >Full name
+              <input
+                class="input-modal"
+                id="user-name"
+                type="text"
+                name="full-name" autocomplete="name" required
+              />
+            </label>
+            <label class="text-top-input" for="user-phone">
+              Phone number
+              <input
+                class="input-modal"
+                id="user-phone"
+                type="tel"
+                name="phone" autocomplete="tel" required
+              />
+            </label>
+            <label class="text-top-input" for="address">
+              Delivery city
+              <input class="input-modal" id="address" type="text" name="city" autocomplete="address-level2" required />
+            </label>
+            <label class="text-top-input" for="comment">
+              Anything we should know? (optional)
+              <textarea
+                class="textarea-modal"
+                name="comment"
+                rows="5"
+                id="comment"
+                placeholder="Add a delivery note or ask us a question…"
+              ></textarea>
+            </label>
+        <div class="button-contain-submit">
+          <div class="contain-checkbox">
+            <label for="privacy-checkbox">
+              <input
+                type="checkbox"
+                id="privacy-checkbox"
+                name="privacy-policy"
+                value="accepted" required
+              />
+              <span class="privacy-polici">I agree to the privacy policy</span>
+            </label>
+
+          </div>
+          <button class="button-submit" type="submit">
+            Send order request
+          </button>
+          <p class="paragraf-under-buttom-modal">
+            We'll contact you to confirm availability and delivery.
           </p>
         </div>
-        <button class="button-close-modal" type="button">
-          <svg class="modal-close-svg">
-            <use href=""></use>
-          </svg>
-        </button>
-      </div>
-      <div class="form-contain-modal">
-        <form class="form-modal" action="">
-          <label class="text-top-input" for=""
-            >Full name
-            <input type="text" />
-          </label>
-          <label class="text-top-input" for="">
-            Phone number
-            <input type="tel" />
-          </label>
-          <label class="text-top-input" for="">
-            Delivery city
-            <input type="text" />
-          </label>
-          <label class="text-top-input" for="">
-            Anything we should know? (optional)
-            <textarea
-              name=""
-              id=""
-              placeholder="Add a delivery note or ask us a question…"
-            >
-            </textarea>
-          </label>
-        </form>
-      </div>
-      <div class="button-contain-submit">
-        <div class="contain-checkbox">
-          <input type="checkbox">
-          <p class="privacy-polici">I agree to the privacy policy</p>
+          </form>
         </div>
-        <button class="button-submit" type="submit">Send order request</button>
-        <p class="paragraf-under-buttom-modal">
-          We'll contact you to confirm availability and delivery.
+        <p class="text-bottom-modal">
+          YOUR DETAILS ARE ONLY USED FOR THIS ORDER
         </p>
       </div>
-      <p class="text-bottom-modal">YOUR DETAILS ARE ONLY USED FOR THIS ORDER</p>
-    </div>
     </div>
   </body>
 </html>
