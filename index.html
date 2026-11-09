@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plantora</title>
-   
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,7 +17,7 @@
     />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
-   <script src="./js/js/main.js"></script>
+  <script src="./js/js/main.js"></script>
   <body>
     <header class="header">
       <div class="header-container container">
@@ -374,33 +374,88 @@
     </main>
     <footer class="footer">
       <div class="footer-contain">
-      <div class="logo">
-        <a class="logo-footer" href="./index.html">plantora.</a>
-        <p class="text-under-logo">Grow good things.</p>
-      </div>
-      <div class="navigation-contein">
-        <nav class="nav-contain-list">
-          <ul class="nav-list-ul">
-            <li class="list-li-contain">
-              <a href="#">SHOP </a>
-            </li>
-            <li class="list-li-contain">
-              <a href="#">ABOUT </a>
-            </li>
-            <li class="list-li-contain">
-              <a href="#">CARE GUIDE</a>
-            </li>
-            <li class="list-li-contain">
-              <a href="#">CONTACT</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+        <div class="logo">
+          <a class="logo-footer" href="./index.html">plantora.</a>
+          <p class="text-under-logo">Grow good things.</p>
+        </div>
+        <div class="navigation-contein">
+          <nav class="nav-contain-list">
+            <ul class="nav-list-ul">
+              <li class="list-li-contain">
+                <a href="#">SHOP </a>
+              </li>
+              <li class="list-li-contain">
+                <a href="#">ABOUT </a>
+              </li>
+              <li class="list-li-contain">
+                <a href="#">CARE GUIDE</a>
+              </li>
+              <li class="list-li-contain">
+                <a href="#">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
       <div class="text-under-footer">
-        <p class="paragraf-under-footer">© 2026 Plantora. Made for greener living.</p>
+        <p class="paragraf-under-footer">
+          © 2026 Plantora. Made for greener living.
+        </p>
       </div>
     </footer>
-    
+    <div class="modal-menu is-open">
+      <div class="modal-contain">
+      <div class="contain-with-button">
+        <div class="text--modal">
+          <p class="paragraf-modal-green">PLANTORA / QUICK ORDER</p>
+          <h2 class="title-menu">Make it yours.</h2>
+          <p class="paragraf-modal">
+            Leave your details and we'll help your new plant find a home.
+          </p>
+        </div>
+        <button class="button-close-modal" type="button">
+          <svg class="modal-close-svg">
+            <use href=""></use>
+          </svg>
+        </button>
+      </div>
+      <div class="form-contain-modal">
+        <form class="form-modal" action="">
+          <label class="text-top-input" for=""
+            >Full name
+            <input type="text" />
+          </label>
+          <label class="text-top-input" for="">
+            Phone number
+            <input type="tel" />
+          </label>
+          <label class="text-top-input" for="">
+            Delivery city
+            <input type="text" />
+          </label>
+          <label class="text-top-input" for="">
+            Anything we should know? (optional)
+            <textarea
+              name=""
+              id=""
+              placeholder="Add a delivery note or ask us a question…"
+            >
+            </textarea>
+          </label>
+        </form>
+      </div>
+      <div class="button-contain-submit">
+        <div class="contain-checkbox">
+          <input type="checkbox">
+          <p class="privacy-polici">I agree to the privacy policy</p>
+        </div>
+        <button class="button-submit" type="submit">Send order request</button>
+        <p class="paragraf-under-buttom-modal">
+          We'll contact you to confirm availability and delivery.
+        </p>
+      </div>
+      <p class="text-bottom-modal">YOUR DETAILS ARE ONLY USED FOR THIS ORDER</p>
+    </div>
+    </div>
   </body>
 </html>
